@@ -1,0 +1,28 @@
+{
+  "name": "react-express--starter",
+  "version": "1.0.0",
+  "description": "React Express Starter Pack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "react",
+    "express",
+    "starter",
+    "pack"
+  ],
+  "author": "Coding Images",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
